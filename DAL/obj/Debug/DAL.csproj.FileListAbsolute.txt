@@ -1,0 +1,10 @@
+C:\Users\Abigail\Documents\Visual Studio 2013\Projects\IntraMAPua\DAL\bin\Debug\DAL.dll
+C:\Users\Abigail\Documents\Visual Studio 2013\Projects\IntraMAPua\DAL\bin\Debug\DAL.pdb
+C:\Users\Abigail\Documents\Visual Studio 2013\Projects\IntraMAPua\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Abigail\Documents\Visual Studio 2013\Projects\IntraMAPua\DAL\obj\Debug\DAL.dll
+C:\Users\Abigail\Documents\Visual Studio 2013\Projects\IntraMAPua\DAL\obj\Debug\DAL.pdb
+C:\Users\Jean Marc\Documents\Jean Marc Documents\IntraMAPua (1)\IntraMAPua\DAL\bin\Debug\DAL.dll
+C:\Users\Jean Marc\Documents\Jean Marc Documents\IntraMAPua (1)\IntraMAPua\DAL\bin\Debug\DAL.pdb
+C:\Users\Jean Marc\Documents\Jean Marc Documents\IntraMAPua (1)\IntraMAPua\DAL\obj\Debug\DAL.dll
+C:\Users\Jean Marc\Documents\Jean Marc Documents\IntraMAPua (1)\IntraMAPua\DAL\obj\Debug\DAL.pdb
+C:\Users\Jean Marc\Documents\Jean Marc Documents\IntraMAPua (1)\IntraMAPua\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
