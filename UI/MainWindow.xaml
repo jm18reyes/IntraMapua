@@ -1,0 +1,11 @@
+﻿<Window x:Class="IntraMAPua.MainWindow"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        Title="MainWindow" Height="321.277" Width="507.447">
+    <Grid>
+        <m:Map x:Name="myMap" CredentialsProvider="0RMaYGXdgaGGUhXmqiP5~tuEN8DKlXKrJo0_IkGG8FQ~Aqs3b2ZKuXV9uml4Hv-j_mrWdQuX23h-SSEPa_23mbPZpLyzXc4V4XtLIzhJl9oq" 
+               Center="14.590244200000000000, 120.978623599999990000" ZoomLevel="15" Mode="AerialWithLabels" Margin="0,20,20,0"/>
+            
+    </Grid>
+</Window>

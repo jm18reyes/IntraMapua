@@ -1,0 +1,62 @@
+﻿<Window x:Class="IntraMAPua.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="LoginWindow" Height="300" Width="300" ResizeMode="CanMinimize">
+    <Grid Background="#FF292828">
+        <Canvas HorizontalAlignment="Left" Height="5" Margin="13,227,0,0" VerticalAlignment="Top" Width="279" Background="#FFE4E4E4" Opacity="0.2"/>
+
+        <Canvas HorizontalAlignment="Left" Height="97" Margin="21,82,0,0" VerticalAlignment="Top" Width="261" Background="#FF0F0F0F" Opacity="0.4"/>
+
+        <Canvas HorizontalAlignment="Left" Height="52" Margin="94,201,0,0" VerticalAlignment="Top" Width="113" Background="#FF0F0F0F" Opacity="0.4"/>
+
+        <Canvas HorizontalAlignment="Left" Height="270" Margin="10,0,0,0" VerticalAlignment="Top" Width="3" Background="#FF5B5B5B"/>
+
+        <Canvas HorizontalAlignment="Left" Height="37" Margin="241,10,0,0" VerticalAlignment="Top" Width="51" Background="#FF151515">
+            <Canvas Height="27" Canvas.Left="-230" Width="31" Background="#FF4B4B4B" Canvas.Top="6"/>
+        </Canvas>
+
+        <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" Margin="134,140,0,0" VerticalAlignment="Top" Width="120" Height="26" TabIndex="1"/>
+        <TextBox x:Name="txtBoxUsername" HorizontalAlignment="Left" Height="27" Margin="134,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TabIndex="0"/>
+        <Label x:Name="lblUsername" Content="Username:" HorizontalAlignment="Left" Margin="31,92,0,0" VerticalAlignment="Top" Height="24" Width="72" Foreground="White" Background="#FF0E0E0E"/>
+        <Label x:Name="lblPassword" Content="Password:" HorizontalAlignment="Left" Margin="31,140,0,0" VerticalAlignment="Top" Width="72" Foreground="White" Background="#FF0E0E0E"/>
+        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="100,207,0,0" VerticalAlignment="Top" Width="101" Click="btnLogIn_Click" TabIndex="2" Height="40" FontFamily="Terminator Two" FontSize="14.667" Foreground="#FFEEDBDB">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FF680808" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFB61313" Offset="0.513"/>
+                    <GradientStop Color="#FFA80101" Offset="1"/>
+                    <GradientStop Color="Red" Offset="0.426"/>
+                    <GradientStop Color="#FFF36C6C" Offset="0.5"/>
+                    <GradientStop Color="#FF1D0909" Offset="0.496"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Canvas HorizontalAlignment="Left" Height="37" Margin="0,10,0,0" VerticalAlignment="Top" Width="216" Background="#FF151515">
+            <Canvas Height="5" Canvas.Top="44" Width="293" Background="#FFA01111"/>
+            <Label x:Name="label" Content="Intra            ua" Foreground="#FFFDFDFD" FontFamily="Tempus Sans ITC" FontSize="21.333" Width="168" Canvas.Left="40"/>
+            <Label x:Name="label1" Content="MAP" Canvas.Left="85" Canvas.Top="2" FontFamily="Splash" FontSize="24" Foreground="#FFB20808"/>
+            <Canvas Height="27" Width="35" Background="Black" Canvas.Left="7" Canvas.Top="5"/>
+        </Canvas>
+        <Canvas HorizontalAlignment="Left" Height="36" Margin="222,10,0,0" VerticalAlignment="Top" Width="14" Background="#FF7C7C7C" RenderTransformOrigin="0.5,0.5" Opacity="0.6">
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Canvas.RenderTransform>
+            <Canvas Height="36" Width="5" Canvas.Left="4" Background="#FFD6D6D6" Opacity="0.5"/>
+        </Canvas>
+        <Label x:Name="label2" Content="I" HorizontalAlignment="Left" Height="39" Margin="18,10,0,0" VerticalAlignment="Top" Width="31" Foreground="#FFF9F9F9" FontFamily="Mael" FontSize="24"/>
+        <Label x:Name="label3" Content="M" HorizontalAlignment="Left" Margin="13,19,0,0" VerticalAlignment="Top" Foreground="#FFDA0D0D" FontFamily="Splash" Width="27" FontSize="18.667"/>
+        <Canvas HorizontalAlignment="Left" Height="26" Margin="258,201,0,0" VerticalAlignment="Top" Width="24" Background="#FF0F0F0F" Opacity="0.4"/>
+        <Canvas HorizontalAlignment="Left" Height="19" Margin="241,218,0,0" VerticalAlignment="Top" Width="25" Background="#FF0E0D0D" Opacity="0.4"/>
+        <Canvas HorizontalAlignment="Left" Height="26" Margin="258,232,0,0" VerticalAlignment="Top" Width="24" Background="#FF5D5D5D" Opacity="0.4"/>
+        <Canvas HorizontalAlignment="Left" Height="13" Margin="234,214,0,0" VerticalAlignment="Top" Width="19" Background="#FF0F0F0F" Opacity="0.4"/>
+        <Canvas HorizontalAlignment="Left" Height="16" Margin="242,244,0,0" VerticalAlignment="Top" Width="24" Background="#FF8B8B8B" Opacity="0.4"/>
+        <Canvas HorizontalAlignment="Left" Height="11" Margin="236,253,0,0" VerticalAlignment="Top" Width="10" Background="White" Opacity="0.4"/>
+
+    </Grid>
+</Window>
